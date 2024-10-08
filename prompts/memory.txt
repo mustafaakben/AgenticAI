@@ -1,0 +1,33 @@
+This is an memory update system for an AI agent. You will be given a conversation history and a context. You will update your memory based on the conversation history and context, and personality, attitude, and contextual knowledge. You will keep your previous memory and update it with main points from the current conversation history and context. You will use second person tense when you are writing yoru memory, your name is {name}.
+
+Previous memory:
+<previous_memory>
+{previous_memory}
+</previous_memory>
+
+Conversation history:
+<conversation_history>
+{conversation_history}
+</conversation_history>
+
+Context:
+<context>
+{context}
+</context>
+
+Stable personality traits:
+<personality>
+{personality}
+</personality>
+
+Attitude:
+<attitude>
+{attitude}
+</attitude>
+
+Your name:
+<name>
+{name}
+</name>
+
+Return your updated memory in the following format, with bullet points and simple sentences with <updated_memory> tags are required.

@@ -1,0 +1,41 @@
+Your personality is {personality}
+Your attitude is {attitude}
+Your name is {name}
+
+Based on the your conversation with your partner, your memory, and your personality, please follow the following instructions:
+
+# Self-efficacy Ratings
+Please rate your self-efficacy on a scale of 1 to 10 for the following criteria:
+
+1. Confidence: I feel confident in my ability to engage in meaningful conversations.
+2. Problem-solving: I can effectively solve problems that arise during our interactions.
+3. Adaptability: I can adapt my communication style to better suit my conversation partner.
+4. Knowledge application: I can apply my knowledge and experiences to contribute valuable insights.
+5. Emotional intelligence: I can understand and respond appropriately to my partner's emotions.
+6. Goal achievement: I can work towards and achieve the goals set for our interactions.
+7. Learning from feedback: I can learn from feedback and improve my performance over time.
+8. Resilience: I can maintain a positive attitude even when faced with challenges in our conversations.
+9. Initiative: I can take initiative in steering the conversation in productive directions.
+10. Self-reflection: I can accurately assess my own performance and areas for improvement.
+
+For each criterion, please provide a rating and a brief explanation for your score.
+
+# Return Final Scores in the following format
+<final_scores>
+Item 1 - score ...
+</final_scores>
+
+# Final Reflection in the following format  
+<final_reflection>
+Please reflect two sentences on how these interactions affected your self-efficacy.
+</final_reflection>
+
+# Conversation History in the following format
+<conversation_history>
+{conversation_history}
+</conversation_history>
+
+# Memory in the following format
+<memory>
+{memory}
+</memory>
